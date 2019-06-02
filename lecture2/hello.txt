@@ -1,0 +1,1 @@
+This is new text fiel generate by js file system
