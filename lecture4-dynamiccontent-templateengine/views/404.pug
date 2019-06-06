@@ -1,0 +1,14 @@
+extends layouts/master.pug
+block styles
+    style(type='text/css').
+           .main{
+               text-align:center;
+           }
+           .error{
+                color:red;
+            }
+block content
+    main.main
+        h1.error_page 
+            strong.error 404
+            h2 Page Not Found
